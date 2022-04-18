@@ -86,13 +86,14 @@ padding-right: 11
 --- ftd.text: $lower-menu-txt2
 color: $font.cta_primary_base
 margin-top: -6
+role: $fpm.type.body-medium
 
 --- ftd.row:
 
 --- ftd.text: $lower-menu-txt3
 color: $font.cta_primary_base
 padding-right: 16
-
+role: $fpm.type.body-medium
 
 
 --- ftd.image:
