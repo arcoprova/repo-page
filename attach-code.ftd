@@ -4,7 +4,8 @@
 -- import: fifthtry.github.io/fifthtry.com/custom-typo as font
 
 -- fpm.font-display: $font-assets.fonts.Inter
-
+-- ftd.color shadow-col: rgba(150,98,32,1)
+dark: rgba(150,98,32,1)
 
 -- homepage:
 
@@ -211,3 +212,4 @@ padding-top: 76
 margin-left: 157
 border-bottom: 1
 role: $fpm.type.body-medium
+border-color: $shadow-col
