@@ -1,0 +1,129 @@
+-- import: fifthtry.github.io/fifthtry.com/assets
+-- import: fpm
+-- import: fifthtry.github.io/inter/assets as font-assets
+-- import: fifthtry.github.io/fifthtry.com/custom-typo as font
+
+-- fpm.font-display: $font-assets.fonts.Inter
+
+
+-- homepage:
+
+
+
+
+
+
+
+-- ftd.column homepage:
+optional ftd.color bg-color: $fpm.color.main.background.base
+background-color: $bg-color
+width: fill
+open: true
+
+
+
+
+--- popup-box:
+
+
+
+
+-- ftd.column popup-box: 
+caption popup-title: Are you sure?
+optional ftd.image-src cross-image: $assets.files.assets.images.cross.png
+optional ftd.image-src back-image: $assets.files.assets.images.back.png
+optional body sub-title: You are declaring that the following pull request
+optional ftd.image-src code-image: $assets.files.assets.images.icon6.png
+optional string code-txt: #222 Doc PR name
+optional body popup-body-part: Does not need anuy associated code.
+optional body popup-lower-body: Use this only to do Documentation for deployed code, or improve existing documentation
+optional string confirm-btn: Confirm
+border-width: 1 
+border-radius: 8
+margin-top: 272
+width: fill
+color: $fpm.color.main.text
+margin-left: 400
+margin-bottom: 354
+width: 614
+height: 340
+
+
+
+--- ftd.text: $popup-title
+padding-top: 12
+padding-bottom: 12
+color: $fpm.color.main.text-strong
+role: $fpm.type.title-large
+align: center
+
+--- ftd.row:
+
+--- ftd.image: 
+src: $cross-image
+margin-left: 575
+margin-top: -40
+
+--- ftd.column:
+
+--- ftd.image: 
+src: $back-image
+margin-left: -570
+margin-top: -36
+
+
+--- ftd.column:
+margin-left: -368
+margin-top: 12
+
+
+--- ftd.text: $sub-title
+padding-bottom: 31
+margin-left: -74
+
+
+--- ftd.column:
+margin-left: -10
+
+--- ftd.image:
+src: $code-image
+
+
+--- ftd.column:
+margin-left: 10
+
+--- ftd.text: $code-txt
+margin-left: 13
+margin-top: -18
+color: $fpm.color.main.text-strong
+role: $fpm.type.title-large
+
+
+
+
+--- ftd.text: $popup-body-part
+width: 534
+padding-top: 11
+margin-left: -36
+
+
+--- ftd.text: $popup-lower-body
+width: 464
+padding-top: 18
+margin-left: -130
+
+
+
+
+--- ftd.text: $confirm-btn
+margin-top: 33
+margin-left: 32
+padding-top: 8
+padding-bottom: 8
+padding-left: 16
+padding-right: 16
+border-width: 1
+border-radius: 8
+background-color: $font.cta_primary_base
+color: $fpm.color.main.text-strong
+

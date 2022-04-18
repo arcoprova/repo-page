@@ -1,0 +1,201 @@
+-- import: fifthtry.github.io/fifthtry.com/assets
+-- import: fpm
+-- import: fifthtry.github.io/inter/assets as font-assets
+-- import: fifthtry.github.io/fifthtry.com/custom-typo as font
+
+-- fpm.font-display: $font-assets.fonts.Inter
+
+
+-- homepage:
+
+
+
+
+
+
+
+-- ftd.column homepage:
+optional ftd.color bg-color: $fpm.color.main.background.base
+background-color: $bg-color
+width: fill
+open: true
+
+
+
+
+--- popup-box:
+
+
+
+
+-- ftd.column popup-box: 
+caption popup-title: Attach Documentation
+optional ftd.image-src cross-image: $assets.files.assets.images.cross.png
+optional body sub-title: A healthy code always carry good Documentation
+optional body sub-title1: Attach one for:
+optional ftd.image-src code-image: $assets.files.assets.images.icon7.png
+optional string code-txt: #222 Code PR name
+optional string type-box: Search
+optional ftd.image-src file-image1: $assets.files.assets.images.icon6.png
+optional body file-txt1: #123 Some Doc PR
+optional ftd.image-src file-image2: $assets.files.assets.images.icon6.png
+optional body file-txt2: #123 Some Doc PR
+optional ftd.image-src file-image3: $assets.files.assets.images.icon10.png
+optional body file-txt3: #123 Some Doc PR
+optional string confirm-btn: Connect
+optional ftd.image-src file-image4: $assets.files.assets.images.icon6.png
+optional body file-txt4: #123 Some Doc PR
+optional ftd.image-src file-image5: $assets.files.assets.images.icon6.png
+optional body file-txt5: #123 Some Doc PR
+optional body note: My PR doesnt need a connection
+border-width: 1 
+border-radius: 8
+margin-top: 172
+width: fill
+color: $fpm.color.main.text
+margin-left: 276
+margin-bottom: 128
+width: 961
+height: 682
+
+
+
+--- ftd.text: $popup-title
+padding-top: 22
+padding-left: 35
+color: $fpm.color.main.text-strong
+role: $fpm.type.title-large
+align: left
+
+--- ftd.row:
+
+--- ftd.image: 
+src: $cross-image
+margin-left: 930
+margin-top: -40
+
+
+
+--- ftd.column:
+margin-left: -750
+margin-top: 12
+
+
+--- ftd.text: $sub-title
+padding-bottom: 10
+margin-left: -165
+
+--- ftd.text: $sub-title1
+padding-bottom: 27
+margin-left: -165
+
+--- ftd.column:
+margin-left: -10
+
+--- ftd.image:
+src: $code-image
+margin-left: -155
+
+--- ftd.column:
+margin-left: 10
+
+--- ftd.text: $code-txt
+margin-left: -145
+margin-top: -18
+color: $fpm.color.main.text-strong
+role: $fpm.type.title-large
+
+
+
+
+
+
+--- ftd.text: $type-box
+margin-top: 29
+margin-left: -155
+width: 872
+border-width: 1
+border-radius: 8
+padding-left: 28
+padding-top: 14
+padding-bottom: 12
+
+
+
+--- ftd.image:
+src: $file-image1
+padding-top: 46
+margin-left: -155
+
+
+--- ftd.text: $file-txt1
+margin-left: -130
+margin-top: -15
+
+
+
+
+--- ftd.image:
+src: $file-image2
+padding-top: 40
+margin-left: -155
+
+
+--- ftd.text: $file-txt2
+margin-left: -130
+margin-top: -15
+
+
+
+--- ftd.image:
+src: $file-image3
+padding-top: 40
+margin-left: -155
+
+
+--- ftd.text: $file-txt3
+margin-left: -130
+margin-top: -15
+color: $fpm.color.main.text-strong
+
+
+
+--- ftd.text: $confirm-btn
+margin-top: -22
+margin-left: 586
+padding-top: 8
+padding-bottom: 8
+padding-left: 16
+padding-right: 16
+border-width: 1
+border-radius: 8
+background-color: $font.cta_primary_base
+color: $fpm.color.main.text-strong
+
+
+--- ftd.image:
+src: $file-image4
+padding-top: 30
+margin-left: -155
+
+
+--- ftd.text: $file-txt4
+margin-left: -130
+margin-top: -15
+
+
+--- ftd.image:
+src: $file-image5
+padding-top: 40
+margin-left: -155
+
+
+--- ftd.text: $file-txt5
+margin-left: -130
+margin-top: -15
+
+
+--- ftd.text: $note
+padding-top: 76
+margin-left: 157
+border-bottom: 1

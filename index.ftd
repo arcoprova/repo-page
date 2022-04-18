@@ -5,9 +5,7 @@
 
 -- fpm.font-display: $font-assets.fonts.Inter
 
--- fpm.toc-item list empty-toc:
 
--- fpm.toc-item list main-nav:
 
 
 
@@ -67,6 +65,7 @@ padding-top: 60
 
 
 --- ftd.row:
+padding-left: 155
 
 --- ftd.image: 
 src: $sub-header-first-image
@@ -108,11 +107,22 @@ role: $fpm.type.title-large
 margin-top: -8
 
 
+
+
 --- container: ftd.main
 
 
 
 --- search-bar:
+
+--- container: ftd.main
+
+
+
+
+
+
+
 
 
 
@@ -138,23 +148,548 @@ color: $fpm.color.main.text
 
 
 
---- container: ftd.main
 
 
 
-
-
-
-
-
-
--- ftd.column table-section:
+-- ftd.column:
 height: 646
 width: 1202
+border-width: 1
+color: $fpm.color.main.text
 border-radius: 8
+margin-left: 205
+margin-top: 17
+margin-bottom: 80
+
+
+--- table-section:
+
+--- table-section1:
+
+--- table-section2:
+
+--- table-section3:
+
+--- table-section4:
+
+--- table-section5:
+
+--- table-section6:
+
+--- table-section7:
+
+-- ftd.column table-section:
+optional ftd.image-src side-block-image-first: $assets.files.assets.images.icon4.png
+optional ftd.image-src code-block-image-red: $assets.files.assets.images.icon5.png
+optional string add-pr-txt: Add a Code PR to complete this pair
+optional ftd.image-src file-image-white: $assets.files.assets.images.icon6.png
+optional string doc-txt: Doc PR name
+optional string connect-btn: Connect
+padding-top: 23
+padding-left: 40
+border-bottom: 1
+padding-bottom: 20
+width: fill
 
 
 
+--- ftd.row:
+
+
+--- ftd.image:
+src: $side-block-image-first 
+
+
+
+
+--- ftd.image:
+src: $code-block-image-red
+padding-left: 6
+margin-top: -5
+
+--- ftd.column:
+
+
+--- ftd.text: $add-pr-txt
+margin-top: -8
+color: $fpm.color.main.text
+padding-left: 4
+
+--- ftd.row:
+
+--- ftd.image:
+src: $file-image-white
+margin-left: -15
+padding-top: 5
+
+
+
+--- ftd.text: $doc-txt
+color: $fpm.color.main.text
+padding-left: 6
+padding-top: 2
+
+
+
+--- ftd.text: $connect-btn
+margin-top: -10
+margin-left: 900
+border-width: 1 
+border-radius: 8
+padding-left: 16
+padding-right: 16
+padding-top: 8
+padding-bottom: 8
+background-color: $font.cta_primary_base
+color: $fpm.color.main.text-strong
+
+
+
+
+
+
+-- ftd.column table-section1:
+optional ftd.image-src side-block-image-first: $assets.files.assets.images.icon4.png
+optional ftd.image-src code-block-image-red: $assets.files.assets.images.icon7.png
+optional string add-pr-txt: #203 Code PR name
+optional ftd.image-src file-image-white: $assets.files.assets.images.icon8.png
+optional string doc-txt: Doc PR name
+optional string connect-btn: Connect
+padding-top: 23
+padding-left: 40
+border-bottom: 1
+padding-bottom: 20
+width: fill
+
+
+
+--- ftd.row:
+
+
+--- ftd.image:
+src: $side-block-image-first 
+
+
+
+
+--- ftd.image:
+src: $code-block-image-red
+padding-left: 6
+margin-top: -5
+
+--- ftd.column:
+
+
+--- ftd.text: $add-pr-txt
+margin-top: -8
+color: $fpm.color.main.text
+padding-left: 4
+
+--- ftd.row:
+
+--- ftd.image:
+src: $file-image-white
+margin-left: -15
+padding-top: 5
+
+
+
+--- ftd.text: $doc-txt
+color: $fpm.color.main.text
+padding-left: 6
+padding-top: 2
+
+
+
+--- ftd.text: $connect-btn
+margin-top: -10
+margin-left: 900
+border-width: 1 
+border-radius: 8
+padding-left: 16
+padding-right: 16
+padding-top: 8
+padding-bottom: 8
+background-color: $font.cta_primary_base
+color: $fpm.color.main.text-strong
+
+
+
+
+-- ftd.column table-section2:
+optional ftd.image-src side-block-image-first: $assets.files.assets.images.icon3.png
+optional ftd.image-src code-block-image-red: $assets.files.assets.images.icon9.png
+optional string add-pr-txt: #203 Code PR name
+optional ftd.image-src file-image-white: $assets.files.assets.images.icon10.png
+optional string doc-txt: #404 Doc PR name
+optional string approved-btn: Approved
+padding-top: 23
+padding-left: 40
+border-bottom: 1
+padding-bottom: 20
+width: fill
+
+
+
+--- ftd.row:
+
+
+--- ftd.image:
+src: $side-block-image-first 
+
+
+
+
+--- ftd.image:
+src: $code-block-image-red
+padding-left: 6
+margin-top: -5
+
+--- ftd.column:
+
+
+--- ftd.text: $add-pr-txt
+margin-top: -8
+color: $fpm.color.main.text
+padding-left: 4
+
+--- ftd.row:
+
+--- ftd.image:
+src: $file-image-white
+margin-left: -15
+padding-top: 5
+
+
+
+--- ftd.text: $doc-txt
+color: $fpm.color.main.text
+padding-left: 6
+padding-top: 2
+
+
+
+--- ftd.text: $approved-btn
+margin-top: -10
+margin-left: 850
+role: $fpm.type.title-large
+padding-top: 4
+padding-bottom: 4
+color: $font.cta_secondary_base
+
+
+
+
+-- ftd.column table-section3:
+optional ftd.image-src side-block-image-first: $assets.files.assets.images.icon3.png
+optional ftd.image-src code-block-image-red: $assets.files.assets.images.icon9.png
+optional string add-pr-txt: #203 Code PR name
+optional ftd.image-src file-image-white: $assets.files.assets.images.icon10.png
+optional string doc-txt: #404 Doc PR name
+optional string connect-btn: Approve
+padding-top: 23
+padding-left: 40
+border-bottom: 1
+padding-bottom: 20
+width: fill
+
+
+
+--- ftd.row:
+
+
+--- ftd.image:
+src: $side-block-image-first 
+
+
+
+
+--- ftd.image:
+src: $code-block-image-red
+padding-left: 6
+margin-top: -5
+
+--- ftd.column:
+
+
+--- ftd.text: $add-pr-txt
+margin-top: -8
+color: $fpm.color.main.text
+padding-left: 4
+
+--- ftd.row:
+
+--- ftd.image:
+src: $file-image-white
+margin-left: -15
+padding-top: 5
+
+
+
+--- ftd.text: $doc-txt
+color: $fpm.color.main.text
+padding-left: 6
+padding-top: 2
+
+
+
+--- ftd.text: $connect-btn
+margin-top: -10
+margin-left: 865
+border-width: 1 
+border-radius: 8
+padding-left: 15
+padding-right: 15
+padding-top: 8
+padding-bottom: 8
+background-color: $font.cta_primary_base
+color: $fpm.color.main.text-strong
+
+-- ftd.column table-section4:
+optional ftd.image-src side-block-image-first: $assets.files.assets.images.icon3.png
+optional ftd.image-src code-block-image-red: $assets.files.assets.images.icon9.png
+optional string add-pr-txt: #203 Code PR name
+optional ftd.image-src file-image-white: $assets.files.assets.images.icon10.png
+optional string doc-txt: #404 Doc PR name
+optional string approved-btn: Approved
+padding-top: 23
+padding-left: 40
+border-bottom: 1
+padding-bottom: 20
+width: fill
+
+
+
+--- ftd.row:
+
+
+--- ftd.image:
+src: $side-block-image-first 
+
+
+
+
+--- ftd.image:
+src: $code-block-image-red
+padding-left: 6
+margin-top: -5
+
+--- ftd.column:
+
+
+--- ftd.text: $add-pr-txt
+margin-top: -8
+color: $fpm.color.main.text
+padding-left: 4
+
+--- ftd.row:
+
+--- ftd.image:
+src: $file-image-white
+margin-left: -15
+padding-top: 5
+
+
+
+--- ftd.text: $doc-txt
+color: $fpm.color.main.text
+padding-left: 6
+padding-top: 2
+
+
+
+--- ftd.text: $approved-btn
+margin-top: -10
+margin-left: 850
+role: $fpm.type.title-large
+padding-top: 4
+padding-bottom: 4
+color: $font.cta_secondary_base
+
+
+-- ftd.column table-section5:
+optional ftd.image-src side-block-image-first: $assets.files.assets.images.icon3.png
+optional ftd.image-src code-block-image-red: $assets.files.assets.images.icon9.png
+optional string add-pr-txt: #203 Code PR name
+optional ftd.image-src file-image-white: $assets.files.assets.images.icon10.png
+optional string doc-txt: #404 Doc PR name
+optional string approved-btn: Approved
+padding-top: 23
+padding-left: 40
+border-bottom: 1
+padding-bottom: 20
+width: fill
+
+
+
+--- ftd.row:
+
+
+--- ftd.image:
+src: $side-block-image-first 
+
+
+
+
+--- ftd.image:
+src: $code-block-image-red
+padding-left: 6
+margin-top: -5
+
+--- ftd.column:
+
+
+--- ftd.text: $add-pr-txt
+margin-top: -8
+color: $fpm.color.main.text
+padding-left: 4
+
+--- ftd.row:
+
+--- ftd.image:
+src: $file-image-white
+margin-left: -15
+padding-top: 5
+
+
+
+--- ftd.text: $doc-txt
+color: $fpm.color.main.text
+padding-left: 6
+padding-top: 2
+
+
+
+--- ftd.text: $approved-btn
+margin-top: -10
+margin-left: 850
+role: $fpm.type.title-large
+padding-top: 4
+padding-bottom: 4
+color: $font.cta_secondary_base
+
+
+-- ftd.column table-section6:
+optional ftd.image-src side-block-image-first: $assets.files.assets.images.icon3.png
+optional ftd.image-src code-block-image-red: $assets.files.assets.images.icon9.png
+optional string add-pr-txt: #203 Code PR name
+optional ftd.image-src file-image-white: $assets.files.assets.images.icon10.png
+optional string doc-txt: #404 Doc PR name
+optional string approved-btn: Approved
+padding-top: 23
+padding-left: 40
+border-bottom: 1
+padding-bottom: 20
+width: fill
+
+
+
+--- ftd.row:
+
+
+--- ftd.image:
+src: $side-block-image-first 
+
+
+
+
+--- ftd.image:
+src: $code-block-image-red
+padding-left: 6
+margin-top: -5
+
+--- ftd.column:
+
+
+--- ftd.text: $add-pr-txt
+margin-top: -8
+color: $fpm.color.main.text
+padding-left: 4
+
+--- ftd.row:
+
+--- ftd.image:
+src: $file-image-white
+margin-left: -15
+padding-top: 5
+
+
+
+--- ftd.text: $doc-txt
+color: $fpm.color.main.text
+padding-left: 6
+padding-top: 2
+
+
+
+--- ftd.text: $approved-btn
+margin-top: -10
+margin-left: 850
+role: $fpm.type.title-large
+padding-top: 4
+padding-bottom: 4
+color: $font.cta_secondary_base
+
+
+-- ftd.column table-section7:
+optional ftd.image-src side-block-image-first: $assets.files.assets.images.icon3.png
+optional ftd.image-src code-block-image-red: $assets.files.assets.images.icon9.png
+optional string add-pr-txt: Add a Code PR to complete this pair
+optional ftd.image-src file-image-white: $assets.files.assets.images.icon10.png
+optional string doc-txt: #404 Doc PR name
+optional string approved-btn: Approved
+padding-top: 23
+padding-left: 40
+padding-bottom: 20
+width: fill
+
+
+
+--- ftd.row:
+
+
+--- ftd.image:
+src: $side-block-image-first 
+
+
+
+
+--- ftd.image:
+src: $code-block-image-red
+padding-left: 6
+margin-top: -5
+
+--- ftd.column:
+
+
+--- ftd.text: $add-pr-txt
+margin-top: -8
+color: $fpm.color.main.text
+padding-left: 4
+
+--- ftd.row:
+
+--- ftd.image:
+src: $file-image-white
+margin-left: -15
+padding-top: 5
+
+
+
+--- ftd.text: $doc-txt
+color: $fpm.color.main.text
+padding-left: 6
+padding-top: 2
+
+
+
+--- ftd.text: $approved-btn
+margin-top: -10
+margin-left: 850
+role: $fpm.type.title-large
+padding-top: 4
+padding-bottom: 4
+color: $font.cta_secondary_base
 
 
 
