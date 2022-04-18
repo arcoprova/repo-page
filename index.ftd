@@ -152,7 +152,7 @@ role: $fpm.type.body-medium
 
 
 -- ftd.column:
-height: 646
+height: 658
 width: 1202
 border-width: 1
 color: $fpm.color.main.text
@@ -691,10 +691,12 @@ role: $fpm.type.body-medium
 
 --- ftd.row:
 
+
 --- ftd.image:
 src: $file-image-white
 margin-left: -15
 padding-top: 5
+
 
 
 
@@ -713,7 +715,6 @@ role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
 color: $font.cta_secondary_base
-
 
 
 
