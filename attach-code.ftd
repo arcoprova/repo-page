@@ -50,6 +50,12 @@ optional body file-txt5: #123 Some Code PR
 optional body note: My PR doesnt need a connection
 border-width: 1 
 border-radius: 8
+border-color: $font.cta_primary_base
+shadow-offset-x: 3
+shadow-offset-y: 4
+shadow-size: 1
+shadow-blur: 4
+shadow-color: $font.cta_primary_base
 margin-top: 172
 width: fill
 color: $fpm.color.main.text

@@ -5,6 +5,9 @@
 
 -- fpm.font-display: $font-assets.fonts.Inter
 
+-- ftd.color shadow-col: rgba(150,98,32,1)
+dark: rgba(150,98,32,1)
+
 
 -- homepage:
 
@@ -28,6 +31,7 @@ open: true
 
 
 
+
 -- ftd.column popup-box: 
 caption popup-title: Approve Changes
 optional ftd.image-src cross-image: $assets.files.assets.images.cross.png
@@ -41,8 +45,16 @@ optional body popup-lower-body: You  take full responsibility for this approval
 optional string type-box: Type your Github username to confirm
 optional string confirm-btn: Confirm
 optional string note: Note: Please ask the Dev/Documentor to come in sync if this is not the case
+/ftd.color shadow-color: rgba(150,98,32,1)
 border-width: 1 
 border-radius: 8
+border-top: 8
+border-color: $shadow-col
+shadow-offset-x: 3
+shadow-offset-y: 4
+shadow-size: 1
+shadow-blur: 4
+shadow-color: $shadow-col
 margin-top: 265
 width: fill
 color: $fpm.color.main.text

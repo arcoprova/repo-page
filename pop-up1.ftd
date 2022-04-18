@@ -4,7 +4,8 @@
 -- import: fifthtry.github.io/fifthtry.com/custom-typo as font
 
 -- fpm.font-display: $font-assets.fonts.Inter
-
+-- ftd.color shadow-col: rgba(150,98,32,1)
+dark: rgba(150,98,32,1)
 
 -- homepage:
 
@@ -41,6 +42,13 @@ optional string type-box: Type your Github username to confirm
 optional string confirm-btn: Confirm
 border-width: 1 
 border-radius: 8
+border-top: 8
+border-color: $shadow-col
+shadow-offset-x: 3
+shadow-offset-y: 4
+shadow-size: 1
+shadow-blur: 4
+shadow-color: $shadow-col
 margin-top: 272
 width: fill
 color: $fpm.color.main.text

@@ -3,6 +3,7 @@
 -- import: fifthtry.github.io/inter/assets as font-assets
 -- import: fifthtry.github.io/fifthtry.com/custom-typo as font
 
+
 -- fpm.font-display: $font-assets.fonts.Inter
 
 
@@ -17,8 +18,6 @@ body body:
 
 
 -- homepage:
-
-
 
 
 
@@ -193,6 +192,7 @@ width: fill
 
 
 
+
 --- ftd.row:
 
 
@@ -214,6 +214,7 @@ margin-top: -5
 margin-top: -8
 color: $fpm.color.main.text
 padding-left: 4
+
 
 --- ftd.row:
 
