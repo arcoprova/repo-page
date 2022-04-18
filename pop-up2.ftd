@@ -88,6 +88,7 @@ margin-top: 12
 --- ftd.text: $sub-title
 padding-bottom: 31
 margin-left: -74
+role: $fpm.type.body-medium
 
 
 --- ftd.column:
@@ -113,12 +114,14 @@ role: $fpm.type.title-large
 width: 534
 padding-top: 11
 margin-left: -36
+role: $fpm.type.body-medium
 
 
 --- ftd.text: $popup-lower-body
 width: 464
 padding-top: 18
 margin-left: -130
+role: $fpm.type.body-medium
 
 
 
@@ -134,4 +137,5 @@ border-width: 1
 border-radius: 8
 background-color: $font.cta_primary_base
 color: $fpm.color.main.text-strong
+role: $fpm.type.body-medium
 

@@ -144,7 +144,7 @@ padding-left: 28
 padding-top: 14
 padding-bottom: 12
 color: $fpm.color.main.text
-
+role: $fpm.type.body-medium
 
 
 
@@ -214,7 +214,7 @@ margin-top: -5
 margin-top: -8
 color: $fpm.color.main.text
 padding-left: 4
-
+role: $fpm.type.body-medium
 
 --- ftd.row:
 
@@ -229,6 +229,7 @@ padding-top: 5
 color: $fpm.color.main.text
 padding-left: 6
 padding-top: 2
+role: $fpm.type.body-medium
 
 
 
@@ -243,6 +244,7 @@ padding-top: 8
 padding-bottom: 8
 background-color: $font.cta_primary_base
 color: $fpm.color.main.text-strong
+role: $fpm.type.body-medium
 
 
 
@@ -285,6 +287,7 @@ margin-top: -5
 margin-top: -8
 color: $fpm.color.main.text
 padding-left: 4
+role: $fpm.type.body-medium
 
 --- ftd.row:
 
@@ -299,7 +302,7 @@ padding-top: 5
 color: $fpm.color.main.text
 padding-left: 6
 padding-top: 2
-
+role: $fpm.type.body-medium
 
 
 --- ftd.text: $connect-btn
@@ -313,7 +316,7 @@ padding-top: 8
 padding-bottom: 8
 background-color: $font.cta_primary_base
 color: $fpm.color.main.text-strong
-
+role: $fpm.type.body-medium
 
 
 
@@ -353,6 +356,7 @@ margin-top: -5
 margin-top: -8
 color: $fpm.color.main.text
 padding-left: 4
+role: $fpm.type.body-medium
 
 --- ftd.row:
 
@@ -367,6 +371,7 @@ padding-top: 5
 color: $fpm.color.main.text
 padding-left: 6
 padding-top: 2
+role: $fpm.type.body-medium
 
 
 
@@ -377,6 +382,7 @@ role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
 color: $font.cta_secondary_base
+
 
 
 
@@ -417,6 +423,7 @@ margin-top: -5
 margin-top: -8
 color: $fpm.color.main.text
 padding-left: 4
+role: $fpm.type.body-medium
 
 --- ftd.row:
 
@@ -431,6 +438,7 @@ padding-top: 5
 color: $fpm.color.main.text
 padding-left: 6
 padding-top: 2
+role: $fpm.type.body-medium
 
 
 
@@ -445,6 +453,9 @@ padding-top: 8
 padding-bottom: 8
 background-color: $font.cta_primary_base
 color: $fpm.color.main.text-strong
+role: $fpm.type.body-medium
+
+
 
 -- ftd.column table-section4:
 optional ftd.image-src side-block-image-first: $assets.files.assets.images.icon3.png
@@ -482,6 +493,7 @@ margin-top: -5
 margin-top: -8
 color: $fpm.color.main.text
 padding-left: 4
+role: $fpm.type.body-medium
 
 --- ftd.row:
 
@@ -496,6 +508,7 @@ padding-top: 5
 color: $fpm.color.main.text
 padding-left: 6
 padding-top: 2
+role: $fpm.type.body-medium
 
 
 
@@ -506,6 +519,7 @@ role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
 color: $font.cta_secondary_base
+
 
 
 -- ftd.column table-section5:
@@ -544,6 +558,7 @@ margin-top: -5
 margin-top: -8
 color: $fpm.color.main.text
 padding-left: 4
+role: $fpm.type.body-medium
 
 --- ftd.row:
 
@@ -558,6 +573,7 @@ padding-top: 5
 color: $fpm.color.main.text
 padding-left: 6
 padding-top: 2
+role: $fpm.type.body-medium
 
 
 
@@ -568,6 +584,7 @@ role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
 color: $font.cta_secondary_base
+
 
 
 -- ftd.column table-section6:
@@ -606,6 +623,7 @@ margin-top: -5
 margin-top: -8
 color: $fpm.color.main.text
 padding-left: 4
+role: $fpm.type.body-medium
 
 --- ftd.row:
 
@@ -620,6 +638,7 @@ padding-top: 5
 color: $fpm.color.main.text
 padding-left: 6
 padding-top: 2
+role: $fpm.type.body-medium
 
 
 
@@ -667,6 +686,7 @@ margin-top: -5
 margin-top: -8
 color: $fpm.color.main.text
 padding-left: 4
+role: $fpm.type.body-medium
 
 --- ftd.row:
 
@@ -681,6 +701,7 @@ padding-top: 5
 color: $fpm.color.main.text
 padding-left: 6
 padding-top: 2
+role: $fpm.type.body-medium
 
 
 
@@ -691,6 +712,7 @@ role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
 color: $font.cta_secondary_base
+
 
 
 

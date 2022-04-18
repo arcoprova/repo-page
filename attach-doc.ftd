@@ -90,10 +90,12 @@ margin-top: 12
 --- ftd.text: $sub-title
 padding-bottom: 10
 margin-left: -165
+role: $fpm.type.body-medium
 
 --- ftd.text: $sub-title1
 padding-bottom: 27
 margin-left: -165
+role: $fpm.type.body-medium
 
 --- ftd.column:
 margin-left: -10
@@ -125,7 +127,7 @@ border-radius: 8
 padding-left: 28
 padding-top: 14
 padding-bottom: 12
-
+role: $fpm.type.body-medium
 
 
 --- ftd.image:
@@ -137,7 +139,7 @@ margin-left: -155
 --- ftd.text: $file-txt1
 margin-left: -130
 margin-top: -15
-
+role: $fpm.type.body-medium
 
 
 
@@ -150,7 +152,7 @@ margin-left: -155
 --- ftd.text: $file-txt2
 margin-left: -130
 margin-top: -15
-
+role: $fpm.type.body-medium
 
 
 --- ftd.image:
@@ -163,7 +165,7 @@ margin-left: -155
 margin-left: -130
 margin-top: -15
 color: $fpm.color.main.text-strong
-
+role: $fpm.type.body-medium
 
 
 --- ftd.text: $confirm-btn
@@ -188,6 +190,7 @@ margin-left: -155
 --- ftd.text: $file-txt4
 margin-left: -130
 margin-top: -15
+role: $fpm.type.body-medium
 
 
 --- ftd.image:
@@ -199,9 +202,11 @@ margin-left: -155
 --- ftd.text: $file-txt5
 margin-left: -130
 margin-top: -15
+role: $fpm.type.body-medium
 
 
 --- ftd.text: $note
 padding-top: 76
 margin-left: 157
 border-bottom: 1
+role: $fpm.type.body-medium

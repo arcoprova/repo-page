@@ -97,6 +97,7 @@ margin-top: -4
 --- ftd.text: $code-txt
 margin-left: 23
 margin-top: -15
+role: $fpm.type.body-medium
 
 
 --- ftd.image: 
@@ -108,6 +109,7 @@ padding-left: 2
 --- ftd.text: $file-txt
 margin-left: 25
 margin-top: -15
+role: $fpm.type.body-medium
 
 
 
@@ -115,11 +117,13 @@ margin-top: -15
 width: 464
 padding-top: 38
 margin-left: -140
+role: $fpm.type.body-medium
 
 
 --- ftd.text: $popup-lower-body
 padding-top: 18
 margin-left: -74
+role: $fpm.type.body-medium
 
 
 --- ftd.text: $type-box
@@ -131,6 +135,7 @@ border-radius: 8
 padding-left: 62
 padding-top: 14
 padding-bottom: 12
+role: $fpm.type.body-medium
 
 
 --- ftd.text: $confirm-btn
@@ -144,9 +149,11 @@ border-width: 1
 border-radius: 8
 background-color: $font.cta_primary_base
 color: $fpm.color.main.text-strong
+role: $fpm.type.body-medium
 
 
 --- ftd.text: $note
 padding-top: 34
 width: 500
 margin-left: -155
+role: $fpm.type.body-medium
