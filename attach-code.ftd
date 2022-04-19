@@ -8,6 +8,8 @@
 dark: rgba(150,98,32,1)
 -- ftd.color note-txt-col: rgba(251, 239, 186, 1)
 dark: rgba(251, 239, 186, 1)
+-- ftd.color btn-txt-col: rgba(67, 69, 71, 1)
+dark: rgba(67, 69, 71, 1)
 
 -- homepage:
 
@@ -182,7 +184,7 @@ border-width: 1
 border-radius: 8
 border-color: $font.cta_primary_base
 background-color: $font.cta_primary_base
-color: $fpm.color.main.text-strong
+color: $btn-txt-col
 role: $fpm.type.body-medium
 
 
