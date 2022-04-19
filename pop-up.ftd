@@ -80,6 +80,8 @@ margin-left: 575
 margin-top: -60
 
 
+
+
 --- ftd.image: 
 src: $side-image
 margin-left: -386
@@ -118,6 +120,7 @@ width: 464
 padding-top: 38
 margin-left: -140
 role: $fpm.type.body-medium
+text-align: center
 
 
 --- ftd.text: $popup-lower-body

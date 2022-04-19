@@ -39,7 +39,7 @@ optional string code-txt: #222 Doc PR name
 optional body popup-body-part: Does not need anuy associated code.
 optional body popup-lower-body: Use this only to do Documentation for deployed code, or improve existing documentation
 optional string confirm-btn: Confirm
-border-width: 1 
+border-width: 1
 border-radius: 8
 border-top: 8
 border-color: $shadow-col
@@ -60,7 +60,7 @@ height: 340
 
 --- ftd.text: $popup-title
 padding-top: 12
-padding-bottom: 12
+padding-bottom: 16
 color: $fpm.color.main.text-strong
 role: $fpm.type.title-large
 align: center
@@ -122,6 +122,7 @@ width: 464
 padding-top: 18
 margin-left: -130
 role: $fpm.type.body-medium
+text-align: center
 
 
 

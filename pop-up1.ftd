@@ -61,7 +61,7 @@ height: 410
 
 --- ftd.text: $popup-title
 padding-top: 12
-padding-bottom: 12
+padding-bottom: 16
 color: $fpm.color.main.text-strong
 role: $fpm.type.title-large
 align: center
@@ -123,6 +123,7 @@ width: 534
 padding-top: 18
 margin-left: -180
 role: $fpm.type.body-medium
+text-align: center
 
 
 --- ftd.text: $type-box
