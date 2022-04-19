@@ -243,6 +243,7 @@ padding-left: 16
 padding-right: 16
 padding-top: 8
 padding-bottom: 8
+border-color: $font.cta_primary_base
 background-color: $font.cta_primary_base
 color: $fpm.color.main.text-strong
 role: $fpm.type.body-medium
@@ -315,6 +316,7 @@ padding-left: 16
 padding-right: 16
 padding-top: 8
 padding-bottom: 8
+border-color: $font.cta_primary_base
 background-color: $font.cta_primary_base
 color: $fpm.color.main.text-strong
 role: $fpm.type.body-medium
@@ -452,6 +454,7 @@ padding-left: 15
 padding-right: 15
 padding-top: 8
 padding-bottom: 8
+border-color: $font.cta_primary_base
 background-color: $font.cta_primary_base
 color: $fpm.color.main.text-strong
 role: $fpm.type.body-medium
