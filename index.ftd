@@ -152,7 +152,7 @@ role: $fpm.type.body-medium
 
 
 -- ftd.column:
-height: 658
+height: 666
 width: 1202
 border-width: 1
 color: $fpm.color.main.text
