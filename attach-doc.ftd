@@ -6,6 +6,8 @@
 -- fpm.font-display: $font-assets.fonts.Inter
 -- ftd.color shadow-col: rgba(150,98,32,1)
 dark: rgba(150,98,32,1)
+-- ftd.color note-txt-col: rgba(251, 239, 186, 1)
+dark: rgba(251, 239, 186, 1)
 
 -- homepage:
 
@@ -213,3 +215,4 @@ margin-left: 157
 border-bottom: 1
 role: $fpm.type.body-medium
 border-color: $shadow-col
+color: $note-txt-col
