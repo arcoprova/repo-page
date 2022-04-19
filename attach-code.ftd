@@ -10,6 +10,8 @@ dark: rgba(150,98,32,1)
 dark: rgba(251, 239, 186, 1)
 -- ftd.color btn-txt-col: rgba(67, 69, 71, 1)
 dark: rgba(67, 69, 71, 1)
+-- ftd.color border-col: rgba(165, 243, 252, 0.2)
+dark: rgba(165, 243, 252, 0.2)
 
 -- homepage:
 
@@ -60,7 +62,7 @@ shadow-offset-x: 3
 shadow-offset-y: 4
 shadow-size: 1
 shadow-blur: 4
-shadow-color: $font.cta_primary_base
+shadow-color: $border-col
 margin-top: 172
 width: fill
 color: $fpm.color.main.text
