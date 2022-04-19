@@ -7,6 +7,8 @@
 -- fpm.font-display: $font-assets.fonts.Inter
 -- ftd.color header-col: rgba(45, 212, 143, 0.05)
 dark: rgba(45, 212, 143, 0.05)
+-- ftd.color btn-txt-col: rgba(67, 69, 71, 1)
+dark: rgba(67, 69, 71, 1)
 
 
 
@@ -246,7 +248,7 @@ padding-top: 8
 padding-bottom: 8
 border-color: $font.cta_primary_base
 background-color: $font.cta_primary_base
-color: $fpm.color.main.text-strong
+color: $btn-txt-col
 role: $fpm.type.body-medium
 
 
@@ -319,7 +321,7 @@ padding-top: 8
 padding-bottom: 8
 border-color: $font.cta_primary_base
 background-color: $font.cta_primary_base
-color: $fpm.color.main.text-strong
+color: $btn-txt-col
 role: $fpm.type.body-medium
 
 
@@ -457,7 +459,7 @@ padding-top: 8
 padding-bottom: 8
 border-color: $font.cta_primary_base
 background-color: $font.cta_primary_base
-color: $fpm.color.main.text-strong
+color: $btn-txt-col
 role: $fpm.type.body-medium
 
 
