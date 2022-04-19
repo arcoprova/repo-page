@@ -135,7 +135,8 @@ padding-left: 16
 padding-right: 16
 border-width: 1
 border-radius: 8
-background-color: $font.cta_primary_base
+border-color:  $shadow-col
+background-color: $shadow-col
 color: $fpm.color.main.text-strong
 role: $fpm.type.body-medium
 

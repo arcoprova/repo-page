@@ -84,7 +84,7 @@ margin-top: -40
 
 
 --- ftd.column:
-margin-left: -750
+margin-left: -748
 margin-top: 12
 
 
@@ -178,6 +178,7 @@ padding-left: 16
 padding-right: 16
 border-width: 1
 border-radius: 8
+border-color: $font.cta_primary_base
 background-color: $font.cta_primary_base
 color: $fpm.color.main.text-strong
 
