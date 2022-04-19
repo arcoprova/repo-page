@@ -89,26 +89,26 @@ padding-right: 11
 
 --- ftd.text: $lower-menu-txt2
 color: $font.cta_primary_base
-margin-top: -6
+margin-top: -8
 role: $fpm.type.body-medium
 
 --- ftd.row:
 
 --- ftd.text: $lower-menu-txt3
 color: $font.cta_primary_base
-padding-right: 16
+padding-right: 20
 role: $fpm.type.body-medium
 
 
 --- ftd.image:
 src: $sub-header-third-image
-padding-right: 5
+padding-right: 8
 margin-top: -5
 
 --- ftd.text: $lower-menu-txt4
 color: $fpm.color.main.text-strong
 role: $fpm.type.title-large
-margin-top: -8
+margin-top: -12
 
 
 
