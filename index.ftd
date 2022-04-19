@@ -9,7 +9,8 @@
 dark: rgba(45, 212, 143, 0.05)
 -- ftd.color btn-txt-col: rgba(67, 69, 71, 1)
 dark: rgba(67, 69, 71, 1)
-
+-- ftd.color approve-col: rgba(114, 210, 60, 1)
+dark: rgba(114, 210, 60, 1)
 
 
 
@@ -387,7 +388,7 @@ margin-left: 850
 role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
-color: $font.cta_secondary_base
+color: $approve-col
 
 
 
@@ -525,7 +526,7 @@ margin-left: 850
 role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
-color: $font.cta_secondary_base
+color: $approve-col
 
 
 
@@ -590,7 +591,7 @@ margin-left: 850
 role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
-color: $font.cta_secondary_base
+color: $approve-col
 
 
 
@@ -655,7 +656,7 @@ margin-left: 850
 role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
-color: $font.cta_secondary_base
+color: $approve-col
 
 
 -- ftd.column table-section7:
@@ -720,7 +721,7 @@ margin-left: 850
 role: $fpm.type.title-large
 padding-top: 4
 padding-bottom: 4
-color: $font.cta_secondary_base
+color: $approve-col
 
 
 
