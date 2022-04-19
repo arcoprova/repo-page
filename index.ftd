@@ -5,7 +5,8 @@
 
 
 -- fpm.font-display: $font-assets.fonts.Inter
-
+-- ftd.color header-col: rgba(45, 212, 143, 0.05)
+dark: rgba(45, 212, 143, 0.05)
 
 
 
@@ -734,7 +735,7 @@ optional ftd.image-src icon-theme-mode: $assets.files.assets.images.icon-moon.pn
 optional ftd.image-src icon-github: $assets.files.assets.images.icon-github.png
 optional string github-url: https://arcoprova.github.io/repo-page/
 padding-horizontal: 48
-background-color: $header-bg
+background-color: $header-col
 width: fill
 
 
